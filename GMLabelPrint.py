@@ -111,7 +111,7 @@ class Ui_Form(object):
         while (printedQty < self.currentQty):
             self.qtyToPrint.setText(str(self.currentQty))
             mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)         
-            self.host = "10.2.1.136" 
+            self.host = "10.10.10.10" 
             port = 9100  
 
             try:           
